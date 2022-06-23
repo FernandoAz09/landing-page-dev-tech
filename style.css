@@ -1,0 +1,19 @@
+/* Aplicando reset no CSS e aplicando fonte padrão */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.demo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Exemplo abaixo como estilizar um icone */
+.icon{
+  color: #248DE9;
+  width: 30px;
+  height: 30px;
+}
