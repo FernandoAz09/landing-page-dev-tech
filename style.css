@@ -17,3 +17,39 @@
   width: 30px;
   height: 30px;
 }
+ /*cores*/
+:root {
+--pretinho-basico:#000000;
+--cinza-escuro:#353535;
+--azul-marinho:#151F35;
+--azul-baby:#248DE9;
+--branquinho:#FFFFFF;
+--meio-branco:#F6F7F9;
+--cinza:#F6F7F9;
+--meio-cinza:#DEDEDE;
+}
+
+.main {
+  background: var(--azul-marinho);
+  padding: 30px 160px;
+}
+
+.header {
+  
+ /* width: 100vw; */
+ height: 7vh;
+ border-bottom: 1px solid #F6F6F6;
+}
+
+
+.header nav{
+  display:flex;
+  gap:2rem
+
+}
+
+.header a {
+  text-decoration: none;
+  color:var(--branquinho);
+}
+
